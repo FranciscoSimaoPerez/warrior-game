@@ -1,0 +1,114 @@
+nav{
+    background-color: rgb(65, 170, 255);
+    color: rgb(38, 50, 56);
+}
+
+.nav-formulario{
+    background-color: white;
+}
+
+body{
+    background-color: rgb(38, 50, 56);
+}
+
+.container{
+    font-size: 20px;
+}
+
+.restart-button{
+    background-color:rgb(255, 160, 0);
+    color:white;
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.restart-button:hover{
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.bottom-buttons{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.pause-button{
+    background-color:rgb(245, 127, 23);
+    color:white;
+    text-align: center;
+    padding: 7px;
+    margin-right:5px;
+    width:50%;
+    border: 3px solid rgba(0, 0, 0, 0);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.pause-button:hover{
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.play-button{
+    background-color:rgb(216, 67, 21);
+    color:white;
+    text-align: center;
+    padding: 7px;
+    margin-left:5px;
+    width:50%;
+    border: 3px solid rgba(0, 0, 0, 0);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.play-button:hover{
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.social-buttons{
+    text-align: center;
+    color:white;
+}
+.social-buttons a i{
+    margin: 25px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    filter: opacity(80%);
+}
+
+.social-buttons a i:hover{
+    cursor: pointer;
+    filter: opacity(100%);
+
+}
+
+.stats{
+    color:white;
+    text-align: center;
+}
+
+.data{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.formulario{
+    background-color: white;
+}
+
+
+#game{
+    height: 100%;
+    width: 100%;
+}
+#breakRow{
+    display:none;
+}
